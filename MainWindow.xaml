@@ -1,0 +1,18 @@
+﻿<Window x:Class="_3._2Laba_2_sem_OOP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3._2Laba_2_sem_OOP"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="349">
+    <Grid>
+
+        <TextBlock Text="Чи вас все влаштовує в житті?" FontSize="14" Margin="0,20,0,0" TextAlignment="Center"/>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="YesButton" Content="Так" Margin="10" Width="70" Height="30" Click="YesButton_Click"/>
+            <Button  x:Name="NoButton" Content="Hi" Margin="10" Width="70" Height="30"  MouseEnter="NoButton_MouseEnter" Click="NoButton_Click"/>
+        </StackPanel>
+        </Grid>
+</Window>
